@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+</head>
+<body>
+<script>
+    var paraula=prompt("Digues una paraula");
+    var contador=0;
+    for(var i=0;i<paraula.length;i++){
+        if(paraula[i]=="A" ||paraula[i]=="a" ||paraula[i]=="E" ||paraula[i]=="e" ||
+          paraula[i]=="I" ||paraula[i]=="i" ||paraula[i]=="O" ||paraula[i]=="o" ||
+          paraula[i]=="U" ||paraula[i]=="u" ){
+           contador++;
+           }
+    }
+           alert("La paraula "+paraula+" te "+contador+" vocal/s")
+</script>
+</body>
+</html>
